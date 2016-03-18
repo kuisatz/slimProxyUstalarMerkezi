@@ -24,7 +24,7 @@ class Dal {
         try {
             $pdo = new \PDO('pgsql:dbname=ostim_development;host=localhost;',
                             'postgres',
-                            '134sn7d11');
+                            '1Qaaal123');
             return $pdo;
         } catch (PDOException $e) {
             return false;
